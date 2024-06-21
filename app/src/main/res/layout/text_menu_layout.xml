@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey"
+    android:orientation="vertical">
+
+    <SeekBar
+        android:id="@+id/textSeek"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.0dip" />
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="@color/grey"
+        android:scrollbarSize="0.0dip">
+
+        <LinearLayout
+            android:id="@+id/items_text_loading"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/add_new_text"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
+            android:src="@drawable/ic_text_new" />
+
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_above="@+id/botmhori"
+            android:background="@color/grey"
+            android:scrollbarSize="0.0dip">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/loadtextcolors"
+                    android:layout_width="60.0dip"
+                    android:layout_height="50.0dip"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="30.0dip"
+                        android:layout_height="30.0dip"
+                        android:src="@drawable/ic_color_bg"
+                        android:tint="@color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/loadtextgradients"
+                    android:layout_width="60.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="30.0dip"
+                        android:layout_height="30.0dip"
+                        android:src="@drawable/ic_gradient"
+                        android:tint="@color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/loadtexttextures"
+                    android:layout_width="60.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="30.0dip"
+                        android:layout_height="30.0dip"
+                        android:src="@drawable/texttexture"
+                        android:tint="@color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/loadtextfont2d"
+                    android:layout_width="60.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="30.0dip"
+                        android:layout_height="30.0dip"
+                        android:src="@drawable/ic_fonts2d"
+                        android:tint="@color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/loadtextfont3d"
+                    android:layout_width="60.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="30.0dip"
+                        android:layout_height="30.0dip"
+                        android:src="@drawable/ic_fonts3d"
+                        android:tint="@color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/textshadowdown"
+                    android:layout_width="60.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="30.0dip"
+                        android:layout_height="30.0dip"
+                        android:src="@drawable/ic_shadowdown"
+                        android:tint="@color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/textshadowup"
+                    android:layout_width="60.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="30.0dip"
+                        android:layout_height="30.0dip"
+                        android:src="@drawable/ic_shadowup"
+                        android:tint="@color/black" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/textopacity"
+                    android:layout_width="60.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_marginLeft="10.0dip"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="30.0dip"
+                        android:layout_height="30.0dip"
+                        android:src="@drawable/ic_opacity"
+                        android:tint="@color/black" />
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+</LinearLayout>

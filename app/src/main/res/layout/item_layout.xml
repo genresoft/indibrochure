@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="70.0dip"
+    android:layout_height="70.0dip"
+    android:background="@drawable/item_bg"
+    android:padding="10.0dip">
+
+    <ImageView
+        android:id="@+id/itemadded"
+        android:layout_width="70.0dip"
+        android:layout_height="70.0dip" />
+</RelativeLayout>

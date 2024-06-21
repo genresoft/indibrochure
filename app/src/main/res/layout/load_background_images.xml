@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50.0dip"
+    android:background="@color/grey"
+    android:orientation="horizontal">
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:scrollbarSize="0.0dip">
+
+        <LinearLayout
+            android:id="@+id/image_background_items_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+</LinearLayout>
